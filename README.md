@@ -45,14 +45,56 @@ Home (index.html) → About Us (about.html) → Programmes (programmes.html) →
 
 ## Changelog
 
-### 2026-08-06 – Initial commit (Part 1)
-- Created folder structure (css/, js/, images/)
-- Added all 5 HTML pages with semantic tags
-- Added functional navigation menu to all pages
-- Added image placeholders for all images
-- Created two forms (enquiry and contact)
-- Added comments throughout HTML code
-- Completed README.md with all required sections
+### 2026-08-06 – Project setup
+- Created main project folder: BookWiseSA-Website
+- Created subfolders: css/, js/, images/
+- Created README.md with student information and project overview
+
+### 2026-08-07 – Added images and structure
+- Added image placeholders for all pages (hero, reading, donate, workshop, team)
+- Created empty style.css and script.js files
+
+### 2026-08-08 – Added homepage
+- Added index.html with hero section and call-to-action button
+- Added impact statistics section (5,000+ books, 20 schools, 100+ volunteers)
+- Added programme preview cards for three initiatives
+- Added footer with social media links
+
+### 2026-08-09 – Added About Us page
+- Added about.html with organisation history (2 paragraphs)
+- Added mission statement and vision statement
+- Added four core values with descriptions
+- Added team section with three member profiles
+
+### 2026-08-10 – Added Programmes page
+- Added programmes.html with Reading Clubs details
+- Added Book Drives details
+- Added Literacy Workshops details
+- Added bullet points for each programme's key features
+- Added call-to-action buttons linking to enquiry page
+
+### 2026-08-10 – Added Enquiry page
+- Added enquiry.html with volunteer application form
+- Added enquiry.html with book request form
+- Added "Why Get Involved" section with four benefit boxes
+
+### 2026-08-10 – Added Contact page
+- Added contact.html with address, phone numbers, and email addresses
+- Added location section with map placeholder
+- Added contact form with name, email, subject, and message fields
+
+### 2026-08-10 – Added navigation and comments
+- Added navigation menu to all 5 pages
+- Ensured all navigation links work correctly
+- Added descriptive HTML comments before each major section
+- Properly indented all HTML code for readability
+
+### 2026-08-10 – Updated README and finalised Part 1
+- Added visual sitemap to README
+- Added detailed sitemap explanation
+- Added changelog with all development entries
+- Ensured all references are in correct Harvard IIE format
+- Final commit for Part 1 submission
 
 ## Content Research Summary (Part 1)
 
