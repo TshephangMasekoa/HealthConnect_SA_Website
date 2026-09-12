@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Involved | Volunteer or Request Books - BookWise SA</title>
-    <meta name="description" content="Volunteer your time, donate books, or request books for your school. Complete our enquiry form to get involved with BookWise SA.">
-    <meta name="keywords" content="volunteer South Africa, book donation, school book request, literacy NPO">
+    <title>Get Involved | Volunteer or Partner - HealthConnect SA</title>
+    <meta name="description" content="Volunteer your time, partner with us, or request a health programme. Complete our enquiry form to get involved with HealthConnect SA.">
+    <meta name="keywords" content="volunteer South Africa, health NPO volunteer, community health partnership">
     
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts - Raleway for headings, Roboto for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     
-    <!-- External CSS -->
+    <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
         <div class="logo">
-            <img src="images/logo.png" alt="BookWise SA Logo" width="150">
+            <img src="images/logo.png" alt="HealthConnect SA Logo" width="150">
         </div>
         <nav>
             <ul>
@@ -39,16 +39,16 @@
 
         <section class="enquiry-intro">
             <h2>How Would You Like to Help?</h2>
-            <p>Whether you want to volunteer your time, donate books, or request books for your school, we would love to hear from you. Complete the form below and a member of our team will respond within 3 business days.</p>
+            <p>Whether you want to volunteer your time, partner with us as a clinic, or sponsor a programme, we would love to hear from you. Complete the form below and a member of our team will respond within 3 business days.</p>
         </section>
 
         <section class="forms-container">
 
-            <!-- FORM 1: VOLUNTEER APPLICATION form-->
+            <!-- FORM 1: VOLUNTEER APPLICATION -->
             <div class="form-card">
                 <div class="form-header">
                     <h2>Volunteer Application</h2>
-                    <p>Join our team of dedicated volunteers promoting literacy.</p>
+                    <p>Join our team of dedicated volunteers improving community health.</p>
                 </div>
 
                 <form action="#" method="post" class="enquiry-form">
@@ -68,6 +68,11 @@
                     </div>
 
                     <div class="form-group">
+                        <label for="volunteer-age">Age *</label>
+                        <input type="number" id="volunteer-age" name="volunteer-age" required min="18" max="99">
+                    </div>
+
+                    <div class="form-group">
                         <label for="volunteer-availability">Availability *</label>
                         <select id="volunteer-availability" name="volunteer-availability" required>
                             <option value="">Select your availability</option>
@@ -79,7 +84,7 @@
 
                     <div class="form-group">
                         <label for="volunteer-skills">Skills and Qualifications</label>
-                        <textarea id="volunteer-skills" name="volunteer-skills" rows="3" placeholder="e.g., teaching experience, reading skills, administration..."></textarea>
+                        <textarea id="volunteer-skills" name="volunteer-skills" rows="3" placeholder="e.g., nursing experience, teaching skills, community outreach..."></textarea>
                     </div>
 
                     <div class="form-group">
@@ -91,17 +96,17 @@
                 </form>
             </div>
 
-            <!-- FORM 2: BOOK REQUEST -->
+            <!-- FORM 2: CLINIC PARTNERSHIP -->
             <div class="form-card">
                 <div class="form-header">
-                    <h2>Book Request</h2>
-                    <p>Request books for your school or classroom.</p>
+                    <h2>Clinic Partnership</h2>
+                    <p>Partner with us to connect more people to healthcare services.</p>
                 </div>
 
                 <form action="#" method="post" class="enquiry-form">
                     <div class="form-group">
-                        <label for="school-name">School Name *</label>
-                        <input type="text" id="school-name" name="school-name" required>
+                        <label for="clinic-name">Clinic Name *</label>
+                        <input type="text" id="clinic-name" name="clinic-name" required>
                     </div>
 
                     <div class="form-group">
@@ -110,41 +115,37 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="school-email">Email Address *</label>
-                        <input type="email" id="school-email" name="school-email" required>
+                        <label for="clinic-email">Email Address *</label>
+                        <input type="email" id="clinic-email" name="clinic-email" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="school-phone">Phone Number *</label>
-                        <input type="tel" id="school-phone" name="school-phone" required>
+                        <label for="clinic-phone">Phone Number *</label>
+                        <input type="tel" id="clinic-phone" name="clinic-phone" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="grade-level">Grade Level *</label>
-                        <select id="grade-level" name="grade-level" required>
-                            <option value="">Select grade level</option>
-                            <option value="grade-1">Grade 1</option>
-                            <option value="grade-2">Grade 2</option>
-                            <option value="grade-3">Grade 3</option>
-                            <option value="grade-4">Grade 4</option>
-                            <option value="grade-5">Grade 5</option>
-                            <option value="grade-6">Grade 6</option>
-                            <option value="grade-7">Grade 7</option>
-                            <option value="all">All grades</option>
+                        <label for="clinic-location">Clinic Location *</label>
+                        <input type="text" id="clinic-location" name="clinic-location" required placeholder="e.g., Diepsloot, Johannesburg">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="partnership-type">Partnership Type *</label>
+                        <select id="partnership-type" name="partnership-type" required>
+                            <option value="">Select partnership type</option>
+                            <option value="referral">Patient Referral Partnership</option>
+                            <option value="workshop">Workshop Hosting</option>
+                            <option value="sponsorship">Clinic Sponsorship</option>
+                            <option value="other">Other Partnership</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <label for="book-count">Number of Books Needed *</label>
-                        <input type="number" id="book-count" name="book-count" required min="1" max="500">
+                        <label for="clinic-message">Additional Information</label>
+                        <textarea id="clinic-message" name="clinic-message" rows="3" placeholder="Please provide any additional details..."></textarea>
                     </div>
 
-                    <div class="form-group">
-                        <label for="school-message">Additional Information</label>
-                        <textarea id="school-message" name="school-message" rows="3" placeholder="Any specific types of books needed..."></textarea>
-                    </div>
-
-                    <button type="submit" class="submit-btn">Submit Book Request</button>
+                    <button type="submit" class="submit-btn">Submit Partnership Enquiry</button>
                 </form>
             </div>
 
@@ -155,19 +156,19 @@
             <div class="benefits-container">
                 <div class="benefit">
                     <h3>Measurable Impact</h3>
-                    <p>Your contribution directly helps children gain access to books and improve their reading skills.</p>
+                    <p>Your contribution directly helps communities access health information and services.</p>
                 </div>
                 <div class="benefit">
                     <h3>Community Connection</h3>
-                    <p>Join a network of passionate volunteers, educators, and supporters working for literacy.</p>
+                    <p>Join a network of passionate health workers, volunteers, and partners.</p>
                 </div>
                 <div class="benefit">
                     <h3>Recognition</h3>
-                    <p>Corporate sponsors receive recognition on our website and social media.</p>
+                    <p>Corporate partners receive recognition on our website and social media.</p>
                 </div>
                 <div class="benefit">
                     <h3>Tax Benefits</h3>
-                    <p>BookWise SA is a registered NPO. Donations are tax-deductible.</p>
+                    <p>HealthConnect SA is a registered NPO. Donations are tax-deductible.</p>
                 </div>
             </div>
         </section>
@@ -177,8 +178,8 @@
     <footer>
         <div class="footer-content">
             <div class="footer-about">
-                <h4>BookWise SA</h4>
-                <p>Promoting literacy in South African schools.</p>
+                <h4>HealthConnect SA</h4>
+                <p>Connecting communities to better health since 2020.</p>
                 <div class="social-links">
                     <a href="#">Facebook</a> |
                     <a href="#">Twitter</a> |
@@ -189,7 +190,7 @@
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="programmes.html">Programmes</a></li>
                     <li><a href="enquiry.html">Enquiry</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -198,14 +199,14 @@
             <div class="footer-contact">
                 <h4>Contact</h4>
                 <ul>
-                    <li>Email: info@bookwisesa.org.za</li>
-                    <li>Phone: 021 123 4567</li>
-                    <li>Location: Cape Town, South Africa</li>
+                    <li>Email: info@healthconnectsa.org.za</li>
+                    <li>Phone: 011 123 4567</li>
+                    <li>Location: Johannesburg, South Africa</li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 BookWise SA. All rights reserved.</p>
+            <p>&copy; 2026 HealthConnect SA. All rights reserved.</p>
         </div>
     </footer>
 
