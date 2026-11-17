@@ -4,8 +4,8 @@
 - **Name:** Mashilo Tshephang Masekoa
 - **Student Number:** ST10472191
 - **Module:** WEDE5020 - Web Development (Introduction)
-- **Assessment:** POE Part 1 and Part 2
-- **Date:** 10 September 2026
+- **Assessment:** POE Part 1, Part 2 and Part 3
+- **Date:** 02 November 2026
 
 ## Project Overview
 HealthConnect SA is a fictional non-profit organisation that provides health education and connects rural communities to local clinics in South Africa. The organisation runs health workshops, clinic connections, and youth health programmes aimed at improving community health outcomes.
@@ -99,8 +99,16 @@ The website consists of 5 pages arranged in a flat hierarchy:
 
 **Navigation:** All pages are linked through the navigation menu in the header and footer.
 
-## Changelog
+## Changelog  
 
+### 2026-11-17 - Part 3: Enhancing Functionality, SEO & Part 2 Feedback Fixes
+- **Part 2 Feedback & Responsive Fixes (`css/style.css`):** Refined CSS media queries for tablet (`screenshot-tablet.png`) and mobile (`screenshot-mobile.png`) viewports to eliminate horizontal overflow, standardize heading hierarchy, improve button hover states, and ensure accessible color contrast across `about.html`, `programmes.html`, `enquiry.html`, and `contact.html`.
+- **Project Asset Organization:** Verified and organized stylesheets, scripts, and media assets cleanly into `/css`, `/js`, and `/images` directories with updated relative file paths.
+- **JavaScript Interactivity (`js/script.js`):** Added responsive mobile navigation menu toggling, dynamic programme/clinic service filtering, an interactive FAQ accordion, and scroll-triggered header/back-to-top controls.
+- **Functional Forms & Client-Side Validation (`enquiry.html`, `contact.html`):** Implemented Volunteer Application, Clinic Partnership, and general contact forms with real-time JavaScript validation (required fields, email format regex, South African phone number validation, and minimum message length) plus live confirmation feedback.
+- **Search Engine Optimisation (SEO):** Added unique `<title>` tags, keyword-optimised meta descriptions, semantic HTML5 landmarks (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`), descriptive `alt` text on all images, `sitemap.xml`, and `robots.txt`.
+- **External Service Integration (`contact.html`):** Embedded an interactive Google Maps `<iframe>` showing the HealthConnect SA office/clinic location alongside static fallback imagery (`map.jpg`).
+- **Deployment:** Deployed the complete static website over HTTPS via GitHub Pages.
 ### 2026-09-06 – Project setup
 - Created main project folder: HealthConnectSA-Website
 - Created subfolders: css/, js/, images/
@@ -169,3 +177,16 @@ Mozilla Developer Network, 2026. *CSS: Cascading Style Sheets*. [online] Availab
 W3Schools, 2026. *CSS Tutorial*. [online] Available at: <https://www.w3schools.com/css/> [Accessed 11 September 2026].
 
 GeeksforGeeks, 2026. *CSS Flexbox*. [online] Available at: <https://www.geeksforgeeks.org/css-flexbox/> [Accessed 11 September 2026].
+
+### Part 3 Reference
+GitHub. 2026. GitHub Pages Documentation. [Online]. Available at: https://docs.github.com/en/pages [Accessed 17 November 2026].
+
+Google. 2026. Google Maps Platform: Embed API Documentation. [Online]. Available at: https://developers.google.com/maps/documentation/embed/get-started [Accessed 17 November 2026].
+
+Google. 2026. Search Engine Optimization (SEO) Starter Guide. [Online]. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Accessed 17 November 2026].
+
+MDN Web Docs. 2026. Client-side form validation. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation [Accessed 17 November 2026].
+
+MDN Web Docs. 2026. Document Object Model (DOM) Introduction. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction [Accessed 17 November 2026].
+
+W3C. 2023. Web Content Accessibility Guidelines (WCAG) 2.2. [Online]. Available at: https://www.w3.org/TR/WCAG22/ [Accessed 17 November 2026].
